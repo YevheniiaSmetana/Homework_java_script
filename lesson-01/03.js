@@ -5,4 +5,13 @@
 */
 
 // your code
-let sum
+const INITIAL_CIFER=1
+const MAX_CIFER=20
+let sum = 0
+let count = INITIAL_CIFER
+while (count <= MAX_CIFER) {
+  sum = sum + count
+  count = count +2
+}
+console.log(sum, count);
+
