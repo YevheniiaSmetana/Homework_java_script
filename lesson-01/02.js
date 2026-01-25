@@ -6,4 +6,12 @@
 */
 
 // your code
-let factorial
+const INITIAL_CIFER = 1
+const MAX_CIFER = 10
+let factorial = 1
+let count = INITIAL_CIFER
+while (count <= MAX_CIFER ) {
+    factorial = factorial * count
+    count=count+1
+}
+console.log(factorial, count);
