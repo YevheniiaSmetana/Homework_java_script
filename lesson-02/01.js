@@ -18,9 +18,3 @@ let isAccess
 // your code
     isAccess= (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)
 
-    if (isAccess===true){
-    alert("Доступ получен")
-    }
-    else {
-        alert("доступ запрещен")
-    }
