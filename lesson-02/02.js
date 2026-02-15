@@ -11,7 +11,17 @@ let dice1 // your code
 let dice2 // your code
 let isWinningDouble // your code
 
-/*
+while (isWinningDouble){
+    let randomNum = Math.floor(Math.random() * 3)
+    if (randomNum === 0) {
+      computerChoice = 'камень'
+    } else if (randomNum === 1) {
+      computerChoice = 'ножницы'
+    } else {
+      computerChoice = 'бумага'
+    }
+}
+
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)
 if (isWinningDouble) {
@@ -19,4 +29,3 @@ if (isWinningDouble) {
 } else {
   console.log('Не выигрышный дубль.')
 }
-*/
