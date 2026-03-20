@@ -12,13 +12,12 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-function doubleEachCharacter(array1, array2) {
-    let result = []
+function doubleEachCharacter(str) {
+    let result = ''
 
-    for (let i = 0; i < structuredClone.length; i++) {
-        if (includesElement(array2, array1[i])) {
-            result.push(array1[i]*2)
-        }
+    for (let i = 0; i < str.length; i++) {
+       //result += str[i] + str[i];
+        result += char.repeat(2)
     }
 
     return result
