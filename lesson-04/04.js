@@ -13,12 +13,11 @@
 */
 
 function doubleEachCharacter(str) {
-    let result = ''
+    let result = '';
 
     for (let i = 0; i < str.length; i++) {
-       //result += str[i] + str[i];
-        result += char.repeat(2)
+        result += str[i].repeat(2);
     }
 
-    return result
+    return result;
 }
