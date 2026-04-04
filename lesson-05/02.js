@@ -36,7 +36,5 @@ const gallery = {
 }
 
 function updateGallery(subject, name, author) {
-  if (subject[name]=== undefined) {
     subject[name] = author;
-  }
 }
